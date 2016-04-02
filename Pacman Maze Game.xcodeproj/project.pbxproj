@@ -15,6 +15,7 @@
 		A1C289671CAF857F00319FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C289651CAF857F00319FD9 /* LaunchScreen.storyboard */; };
 		A1C289721CAF857F00319FD9 /* Pacman_Maze_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C289711CAF857F00319FD9 /* Pacman_Maze_GameTests.m */; };
 		A1C2897D1CAF857F00319FD9 /* Pacman_Maze_GameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C2897C1CAF857F00319FD9 /* Pacman_Maze_GameUITests.m */; };
+		A1D05C651CAF89A600772F23 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D05C641CAF89A600772F23 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A1C289781CAF857F00319FD9 /* Pacman Maze GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pacman Maze GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C2897C1CAF857F00319FD9 /* Pacman_Maze_GameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pacman_Maze_GameUITests.m; sourceTree = "<group>"; };
 		A1C2897E1CAF857F00319FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D05C641CAF89A600772F23 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D05C651CAF89A600772F23 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		A1C2894B1CAF857E00319FD9 = {
 			isa = PBXGroup;
 			children = (
+				A1D05C641CAF89A600772F23 /* CoreMotion.framework */,
 				A1C289561CAF857F00319FD9 /* Pacman Maze Game */,
 				A1C289701CAF857F00319FD9 /* Pacman Maze GameTests */,
 				A1C2897B1CAF857F00319FD9 /* Pacman Maze GameUITests */,
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "evan.Pacman-Maze-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "evan.Pacman-Maze-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +504,7 @@
 				A1C289831CAF857F00319FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1C289841CAF857F00319FD9 /* Build configuration list for PBXNativeTarget "Pacman Maze GameTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				A1C289861CAF857F00319FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1C289871CAF857F00319FD9 /* Build configuration list for PBXNativeTarget "Pacman Maze GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				A1C289891CAF857F00319FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

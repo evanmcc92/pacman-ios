@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,125 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="Kpq-zd-lq5">
+                                <rect key="frame" x="65" y="169" width="64" height="64"/>
+                                <animations/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="72" y="244" width="64" height="64"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="74" y="259" width="64" height="64"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="RJO-sN-zsb">
+                                <rect key="frame" x="316" y="90" width="64" height="64"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="2Jc-5M-gSm">
+                                <rect key="frame" x="130" y="7" width="64" height="64"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="ghost" translatesAutoresizingMaskIntoConstraints="NO" id="30h-RK-CXe">
+                                <rect key="frame" x="219" y="7" width="32" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="ghost" translatesAutoresizingMaskIntoConstraints="NO" id="8WK-0N-D7L">
+                                <rect key="frame" x="419" y="53" width="32" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="OGf-k9-yeT">
+                                <rect key="frame" x="0.0" y="204" width="64" height="64"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="Rhz-EM-Srr">
+                                <rect key="frame" x="482" y="385" width="64" height="64"/>
+                                <animations/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="491" y="106" width="64" height="64"/>
+                                </variation>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="633" y="128" width="64" height="64"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="YbG-UZ-sLc">
+                                <rect key="frame" x="146" y="289" width="64" height="64"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="WYn-zB-VI9">
+                                <rect key="frame" x="379" y="340" width="64" height="64"/>
+                                <animations/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="521" y="411" width="64" height="64"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="exit" translatesAutoresizingMaskIntoConstraints="NO" id="v6A-TX-NUM">
+                                <rect key="frame" x="544" y="304" width="33" height="33"/>
+                                <animations/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="707" y="259" width="33" height="33"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="ghost" translatesAutoresizingMaskIntoConstraints="NO" id="59e-xV-iHp">
+                                <rect key="frame" x="292" y="260" width="32" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="Aum-ER-Jjw">
+                                <rect key="frame" x="387" y="244" width="64" height="64"/>
+                                <animations/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="425" y="284" width="64" height="64"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="455" y="316" width="64" height="64"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="pacman" translatesAutoresizingMaskIntoConstraints="NO" id="Wql-wF-uyq">
+                                <rect key="frame" x="0.0" y="284" width="32" height="32"/>
+                                <animations/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="164" width="32" height="32"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="7" y="164" width="32" height="32"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="squareWall" translatesAutoresizingMaskIntoConstraints="NO" id="nag-vD-Sw4">
+                                <rect key="frame" x="7" y="90" width="64" height="64"/>
+                                <animations/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="37" width="64" height="64"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="exit" destination="v6A-TX-NUM" id="WfQ-8Y-4S5"/>
+                        <outlet property="ghost1" destination="30h-RK-CXe" id="0tH-A5-8vH"/>
+                        <outlet property="ghost2" destination="59e-xV-iHp" id="F3j-to-YVa"/>
+                        <outlet property="ghost3" destination="8WK-0N-D7L" id="35S-o2-sCn"/>
+                        <outlet property="pacman" destination="Wql-wF-uyq" id="WJ8-Ra-ma1"/>
+                        <outletCollection property="wall" destination="Rhz-EM-Srr" id="J5b-SG-iNP"/>
+                        <outletCollection property="wall" destination="WYn-zB-VI9" id="lfZ-Cd-wDu"/>
+                        <outletCollection property="wall" destination="Aum-ER-Jjw" id="gLC-sG-0iE"/>
+                        <outletCollection property="wall" destination="RJO-sN-zsb" id="By9-C4-iLh"/>
+                        <outletCollection property="wall" destination="2Jc-5M-gSm" id="Okk-3S-2Kz"/>
+                        <outletCollection property="wall" destination="Kpq-zd-lq5" id="Lmm-Ku-7Ym"/>
+                        <outletCollection property="wall" destination="nag-vD-Sw4" id="Q5O-pH-e2P"/>
+                        <outletCollection property="wall" destination="YbG-UZ-sLc" id="Ynv-XG-9v3"/>
+                        <outletCollection property="wall" destination="OGf-k9-yeT" id="Rir-dh-AzS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="exit" width="33" height="33"/>
+        <image name="ghost" width="32" height="32"/>
+        <image name="pacman" width="32" height="32"/>
+        <image name="squareWall" width="64" height="64"/>
+    </resources>
 </document>
